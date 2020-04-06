@@ -1,5 +1,6 @@
 # week8_updated-portfolio
-# Unit 08 Project 1 Homework: Professional Materials
+![portfolio screenshot](https://user-images.githubusercontent.com/58574509/78574111-20276b00-785c-11ea-84f3-a4bf6c3b3766.PNG)
+
 
 Now that you've had some practice with APIs and have a project to share, you'll be updating your portfolio page and other materials to build toward being employer competitive.
 
