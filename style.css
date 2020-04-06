@@ -1,1 +1,53 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* about-me id */
+.about{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* padding for aboutme-cards-wrapper*/
+.about-me-cards .aboutme-cards-wrapper{
+    padding: 15px;
+}
+/* positon for page-card-grid class in row of about-me-cards */
+.page-card-grid{
+    position: relative;
+    perspective: 1500px;
+}
+/* font sizes of all icons in about-me-cards class */
+.about-me-cards i{
+    font-size: 42px;
+}
+/* card body styling */
 
+.about-me-cards .card .card-body{
+ padding:  40px 20px;
+ transition: all 1.8s cubic-bezier(.19,1,.22,1);
+ margin-bottom: 1rem;
+} 
+.about-me-cards .card .card-body .card-icon{
+    margin-bottom: 1rem;
+}
+/* border styling of cards */
+.border{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+/* color of card-title */
+.card-title{
+    color:black
+}
+.portfolio-card{
+    box-shadow: 10px 10px 5px grey;
+    animation-direction: normal;
+}
+
+  /* Styling footer icons */
+  .icons i {
+    color: black;
+    font-size: 30px;
+  }
+  
