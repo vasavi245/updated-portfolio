@@ -1,53 +1,69 @@
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Jumbotron color */
+.navbar {
+  background-color: pink;
 }
 /* about-me id */
-.about{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+.about {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* padding for aboutme-cards-wrapper*/
-.about-me-cards .aboutme-cards-wrapper{
-    padding: 15px;
+.about-me-cards .aboutme-cards-wrapper {
+  padding: 15px;
 }
 /* positon for page-card-grid class in row of about-me-cards */
-.page-card-grid{
-    position: relative;
-    perspective: 1500px;
+.page-card-grid {
+  position: relative;
+  perspective: 1500px;
 }
 /* font sizes of all icons in about-me-cards class */
-.about-me-cards i{
-    font-size: 42px;
+.about-me-cards i {
+  font-size: 42px;
 }
 /* card body styling */
 
-.about-me-cards .card .card-body{
- padding:  40px 20px;
- transition: all 1.8s cubic-bezier(.19,1,.22,1);
- margin-bottom: 1rem;
-} 
-.about-me-cards .card .card-body .card-icon{
-    margin-bottom: 1rem;
+.about-me-cards .card .card-body {
+  padding: 40px 20px;
+  margin-bottom: 1rem;
+}
+.about-me-cards .card .card-body .card-icon {
+  margin-bottom: 1rem;
 }
 /* border styling of cards */
-.border{
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    cursor: pointer;
+.border {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: pink;
 }
-/* color of card-title */
-.card-title{
-    color:black
-}
-.portfolio-card{
-    box-shadow: 10px 10px 5px grey;
-    animation-direction: normal;
+/* shadow for portfolio cards */
+.portfolio-card {
+  box-shadow: 10px 10px 5px grey;
 }
 
-  /* Styling footer icons */
-  .icons i {
-    color: black;
-    font-size: 30px;
-  }
-  
+/* Styling icons in about me */
+
+.single-contact {
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+  padding: 5%;
+  margin-bottom: 50px;
+}
+/* icons size style in socials class */
+.socials i {
+  font-size: 30px;
+  color: black;
+}
+.aboutmetext {
+  color: blue;
+  font-size: 20px;
+}
+/* headings fonts */
+h1,
+h2 {
+  font-style: oblique;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+}

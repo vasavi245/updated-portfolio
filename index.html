@@ -38,7 +38,7 @@
   <body>
       <!--Nav Bar-->
     <div id="header">
-      <nav class="navbar navbar-expand-sm navbar-dark bg-secondary sticky-top">
+      <nav class="navbar navbar-expand-sm navbar-light sticky-top">
         <div class="container">
           <button
             class="navbar-toggler"
@@ -49,19 +49,19 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <a href="index.html" class="navbar-brand" style="text-align: center;"
-            ><h3>Vasavi | Portfolio</h3></a
+            ><h1>Vasavi | Portfolio</h1></a
           >
           <!-- lists of Links in nav bar-->
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a href="#aboutme" class="nav-link">About Me</a>
+                <a href="#aboutme" class="nav-link" style="color: blue;">About Me</a>
               </li>
               <li class="nav-item">
-                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#portfolio" class="nav-link"  style="color: blue;">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#contact" class="nav-link"  style="color: blue;">Contact</a>
               </li>
             </ul>
           </div>
@@ -69,22 +69,22 @@
       </nav>
     </div>
     <!--Jumbotron for picture and email-->
-    <div class="jumbotron jumbotron-fluid bg-dark">
+    <div class="jumbotron jumbotron-fluid bg-white">
       <div class="container">
         <div class="row">
           <div class="col d-flex justify-content-start">
             <img
               src="sindhu1.jpg"
               alt="my image"
-              height="250"
-              width="250"
+              height="400"
+              width="400"
               class="rounded-circle"
             />
           </div>
-          <div class="col-md-6">
-            <h4 class="display-4 text-white">VasaviSindhu Saladi</h4>
-            <a href="#" class="lead text-white">
-              <i class="far fa-envelope"></i> r.vasavi04@gmail.com
+          <div class="col-md-9">
+            <h1 class="display-4 text-black"><b>VasaviSindhu Saladi</b></h1>
+            <a href="#" class="lead text-black">
+              <i class="far fa-envelope"></i><b>r.vasavi04@gmail.com</b>
             </a>
           </div>
         </div>
@@ -93,11 +93,11 @@
     <!--About me container-->
     <div class="container-fluid about" id ="aboutme">
       <h2 class="text-center mb-50"><b> ~ About Me ~</b></h2>
-      <p class= "text-center">Hello, My name is Vasavi. I graduated from JNT University with Becholer of Computer Science and Engineering in 2011.<br>and currently Pursuing certificate of Full Stack Development (Coding Bootcamp) from University of Western Australia </p>
-      <p classs="text-center">Passionate about software developing, experiences that are intuitive and make technology more accessible to everyone.<br>I have experience with creating front end designs using Bootstrap, JQuery, and HTML, CSS, and Javascript</p>
+      <p class= "text-center aboutmetext">Hello, My name is Vasavi. I graduated from JNT University with Becholer of Computer Science and Engineering in 2011.<br>and currently Pursuing certificate of Full Stack Development (Coding Bootcamp) from University of Western Australia </p>
+      <p class="text-center aboutmetext">Passionate about software developing, experiences that are intuitive and make technology more accessible to everyone.<br>I have experience with creating front end designs using Bootstrap, JQuery, and HTML, CSS, and Javascript</p>
         <div class="row page-card-grid about-me-cards">
           <div class="col-sm-4 about-me-cards-wrapper">
-            <div class="border border-secondary alert alert-secondary d-flex rounded">
+            <div class="border border-secondary alert d-flex rounded">
             <div class="card-body" id="Resume">
                 <div class="card-icon">
                     <i class="fas fa-folder"></i>
@@ -110,7 +110,7 @@
           </div>
           </div>
           <div class="col-sm-4 about-me-cards-wrapper">
-            <div class="border border-secondary alert alert-secondary d-flex rounded">
+            <div class="border border-secondary alert  d-flex rounded">
             <div class="card-body">
                 <div class="card-icon">
                     <i class="fab fa-github"></i>
@@ -122,12 +122,12 @@
             </div>
           </div>
           <div class="col-sm-4 about-me-cards-wrapper">
-            <div class="border border-secondary alert alert-secondary d-flex rounded">
+            <div class="border border-secondary alert d-flex rounded">
             <div class="card-body">
                 <div class="card-icon">
                     <i class="fab fa-linkedin"></i>
                     <!--Link to my linkedin page-->
-                    <a href="https://au.linkedin.com/in/vasavi-saladi-1b229634">
+                    <a href="https://au.linkedin.com/in/vasavi-saladi-1b229634" target="_blank">
                     <h4 class="card-title">Linkedin</h4>
                     </a>
                 </div>
@@ -138,11 +138,11 @@
     <!--portfolio contains links to the projects that i have done-->
     <div class="container" id ="portfolio">
         <h2 class="text-center"><b>~ Portfolio ~</b></h2>
-        <p class="text-center">Checkout some of my works</p>
-        <i class="fas fa-angle-double-down text-start"></i>
+        <p class="text-center" style='font-size:medium'>Checkout some of my works</p>
+        <i class="fas fa-angle-double-down text-center"></i>
         <div class="row justify-content-start">
             <div class="col-md-8">
-                <div class="card mb-3 text-white bg-dark mb-3 rounded-card portfolio-card">
+                <div class="card mb-3 mb-3 rounded-card portfolio-card">
                     <div class="row no-gutters">
                         <div class="col-md-4 hover-img">
                             <a href="https://musing-galileo-c77ab8.netlify.com" target="_blank">
@@ -151,7 +151,7 @@
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title text-white">Recipedia</h5>
+                                <h5 class="card-title"><b>Recipedia</b></h5>
                                 <p class="card-text">This website gives the detail information of the recipe, when the user gives the query</p>
                                 <p class ="card-text">Me and my team built this website with Html, Css, Javascript/JQuery, Materialise Css, Api calls</p>
                                  <a id="githublink" href="https://github.com/vasavi245/Recipedia_project1" target="_blank">GitHub Repository</a> 
@@ -164,7 +164,7 @@
         <!--Below are my projects with description and links-->
         <div class="row justify-content-end">
             <div class="col-md-8">
-                <div class="card mb-3 text-white bg-dark mb-3 rounded-card portfolio-card">
+                <div class="card mb-3 rounded-card portfolio-card" style="background-color: pink;">
                     <div class="row no-gutters">
                         <div class="col-md-4 hover-img">
                             <!--Image links to the website-->
@@ -174,8 +174,8 @@
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title text-white">Weather Dashboard</h5>
-                                <p class="card-text">This is the Weather dashboard app that give sthe weather info and the forecast info of the city that has given in the search field.</p>
+                                <h5 class="card-title"><b>Weather Dashboard</b></h5>
+                                <p class="card-text ">This is the Weather dashboard app that give sthe weather info and the forecast info of the city that has given in the search field.</p>
                                 <p class ="card-text">This app is built with Html/Css Javascript/JQuery and Open weather API for to get weather information.</p>
                                 <!--Git hub repo link for the website-->
                                 <a id="githublink" href="https://github.com/vasavi245/week6_Weather-Dashboard" target="_blank">GitHub Repository</a> 
@@ -187,7 +187,7 @@
         </div>
     <div class="row justify-content-start">
         <div class="col-md-8">
-            <div class="card mb-3 text-white bg-dark mb-3 rounded-card portfolio-card">
+            <div class="card mb-3 mb-3 rounded-card portfolio-card">
                 <div class="row no-gutters">
                     <div class="col-md-4 hover-img">
                         <!--Image links to the website-->
@@ -197,7 +197,7 @@
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title text-white">Day Planner</h5>
+                            <h5 class="card-title"><b>Day Planner</b></h5>
                             <p class="card-text">This is the work day scheduler app that helps to plan the events in the work time and stores it for the day.</p>
                             <p class ="card-text">This app i sbuilt with Html, Css, Javascript.</p>
                             <!--Git hub repo link for the website--> 
@@ -210,7 +210,7 @@
     </div>
     <div class="row justify-content-end">
         <div class="col-md-8">
-            <div class="card mb-3 text-white bg-dark mb-3 rounded-card portfolio-card">
+            <div class="card mb-3 mb-3 rounded-card portfolio-card" style="background-color:pink;">
                 <div class="row no-gutters">
                     <div class="col-md-4 hover-img">
                         <!--Image links to the website-->
@@ -220,7 +220,7 @@
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title text-white">Code Quiz</h5>
+                            <h5 class="card-title"><b>Code Quiz</b></h5>
                             <p class="card-text">This is a quiz app that gives range of questions and timer to answer the questions and stores the timer as the highscore for different users </p>
                             <p class ="card-text">This app is built with Html, Css, Javascript</p>
                             <!--Git hub repo link for the website-->
@@ -232,57 +232,62 @@
         </div>
     </div>
   </div>
-  <!-- conatct form -->
-  <div class="container" id="contact">
-      <h2><b>~ Contact ~</b></h2>
-      <div class="container border border-dark bg-dark">
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-    <div class="form-group">
-        <label for="exampleFormControlInput" class="text-white">Name</label>
-        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name"> 
-   </div>
+  <!-- Conatct Info-->
+  <div class="contact-area section-padding" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header">
+                    <p class="line-one"></p>
+                    <h2><b>~ Contact ~</b></h2>
+                    <p class="line-one"></p>
+                </div>
+            </div>
         </div>
-    </div>                       
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-     <div class="form-group">
-        <label for="exampleInputEmail1"class="text-white">Email</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@gmail.com">
-     </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="single-contact text-center" >
+                    <i class="fa fa-home"></i>
+                    <h3>Location</h3>
+                    <p>Perth, Western Australia</p><br>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="single-contact text-center" style="background-color: pink;">
+                    <i class="fa fa-phone"></i>
+                    <h3>Phone: </h3>
+                    <p>0470303235</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="single-contact text-center">
+                    <i class="fa fa-envelope-o"></i>
+                    <h3>Email</h3>
+                    <p>r.vasavi04@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="single-contact text-center" style="background-color: pink;">
+                     <i class="fa fa-gg"></i>
+                    <h3>Follow Me on: </h3>
+                    <div class="socials">
+                        <a href="https://github.com/vasavi245" target="_blank">
+                            <i class="fab fa-github"></i>
+                            </a>
+                        <!--your linkedin profile link here-->
+                        <a href="https://au.linkedin.com/in/vasavi-saladi-1b229634" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                             </a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-     <div class="form-group">
-        <label for="exampleFormControlTextarea1" class="text-white">Message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-     </div>
-        </div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-      <div class="form-group">
-        <button class="btn btn-primary text-white">Submit</button>
-      </div>
-        </div>
-    </div>
-  </div>  
-  </div>
   <!--Footer-->
   <footer class="footer">
       <div class="container">
        <div class="row text-center">
-        <div class="col-md-4 icons">
-        <a href="https://github.com/vasavi245" target="_blank">
-        <i class="fab fa-github"></i>
-        </a>
-        <a href="https://au.linkedin.com/in/vasavi-saladi-1b229634" target="_blank">
-        <i class="fab fa-linkedin"></i>
-         </a>
-        </div>
-        <div class="col-md-4">
-          <p>copyright<i class="fas fa-copyright"></i> 2020 Vasavi</p>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+          <p>All Rights Reserved<i class="fas fa-copyright"></i></p>
         </div>
         </div>
     </div>
