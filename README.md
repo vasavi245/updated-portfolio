@@ -109,7 +109,7 @@ Update your LinkedIn Profile with a strong bio statement, a professional photo, 
 ### Installation
  * index.html
  * Style.css
- I have used Bootstrap to design, and my portfolio is updated with the links of Github Repo, Linkedin, My Resume and have the projects details and links to the projects and apps that i have worked on.
+ * I have used Bootstrap to design, and my portfolio is updated with the links of Github Repo, Linkedin, My Resume and have the projects details and links to the projects and apps that i have worked on.
  ### Links
  * 
  * 
