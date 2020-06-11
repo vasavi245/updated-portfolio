@@ -60,6 +60,7 @@ body {
 .aboutmetext {
   color: blue;
   font-size: 20px;
+  font-style: italic;
 }
 /* headings fonts */
 h1,
